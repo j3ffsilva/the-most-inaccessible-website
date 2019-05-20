@@ -1092,27 +1092,41 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 213.
+(Font)              scaled to size 10.0pt on input line 222.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 213.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 213.
-LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 213.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 7.0pt on input line 213.
-LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 213.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 213.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 213.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 213.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 213.
-LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 213.
+(Font)              scaled to size 10.0pt on input line 222.
+
+
+! LaTeX Error: File `sampleteaser' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.222 \maketitle
+                
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.222 \maketitle
+                
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+ 
+Here is how much of TeX's memory you used:
+ 17782 strings out of 492623
+ 266213 string characters out of 6129553
+ 383467 words of memory out of 5000000
+ 21203 multiletter control sequences out of 15000+600000
+ 67137 words of font info for 90 fonts, out of 8000000 for 9000
+ 1302 hyphenation exceptions out of 8191
+ 60i,7n,94p,856b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
+            scaled to size 9.0pt on input line 213.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 9.0pt on input line 213.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
@@ -1163,8 +1177,16 @@ Overfull \hbox (1.26605pt too wide) in paragraph at lines 410--414
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 415.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(ine 415.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 7.0pt on input line 415.
 [2.2]
+
+LaTeX Warning: Reference `tab:freq' on page 3 undefined on input line 437.
+
+
+LaTeX Warning: Reference `tab:commands' on page 3 undefined on input line 461.
+
 
 Package natbib Warning: Citation `Lamport:LaTeX' on page 3 undefined on input l
 ine 491.
@@ -1172,71 +1194,38 @@ ine 491.
 
 Underfull \vbox (badness 1092) has occurred while \output is active []
 
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
-(Font)              scaled to size 9.0pt on input line 550.
- [3.3]
-
-Package natbib Warning: Citation `Abril07' on page 4 undefined on input line 57
-5.
 
 
-Package natbib Warning: Citation `Cohen07' on page 4 undefined on input line 57
-6.
+! LaTeX Error: File `sample-franklin' not found.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.532 ...aphics[width=\linewidth]{sample-franklin}
+                                                  
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.532 ...aphics[width=\linewidth]{sample-franklin}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-Package natbib Warning: Citation `JCohen96' on page 4 undefined on input line 5
-77.
-
-
-Package natbib Warning: Citation `Kosiur01' on page 4 undefined on input line 5
-77.
-
-
-Package natbib Warning: Citation `Harel79' on page 4 undefined on input line 57
-9.
-
-
-Package natbib Warning: Citation `Editor00' on page 4 undefined on input line 5
-80.
-
-
-Package natbib Warning: Citation `Editor00a' on page 4 undefined on input line 
-581.
-
-
-Package natbib Warning: Citation `Spector90' on page 4 undefined on input line 
-583.
-
-
-Package natbib Warning: Citation `Douglass98' on page 4 undefined on input line
- 584.
-
-
-Package natbib Warning: Citation `Knuth97' on page 4 undefined on input line 58
-5.
-
-
-Package natbib Warning: Citation `Andler79' on page 4 undefined on input line 5
-87.
-
-
-Package natbib Warning: Citation `Smith10' on page 4 undefined on input line 58
-8.
-
-
-Package natbib Warning: Citation `VanGundy07' on page 4 undefined on input line
- 589.
-
-
-Package natbib Warning: Citation `Harel78' on page 4 undefined on input line 58
-9.
-
-
-Package natbib Warning: Citation `Clarkson85' on page 4 undefined on input line
- 590.
-
-
-Package natbib Warning: Citation `anisi03' on page 4 undefined on input line 59
+ 
+Here is how much of TeX's memory you used:
+ 18129 strings out of 492623
+ 274223 string characters out of 6129553
+ 393467 words of memory out of 5000000
+ 21324 multiletter control sequences out of 15000+600000
+ 163250 words of font info for 255 fonts, out of 8000000 for 9000
+ 1302 hyphenation exceptions out of 8191
+ 60i,12n,94p,856b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
+defined on input line 59
 1.
 
 
