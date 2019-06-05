@@ -49,6 +49,8 @@
 \acmISBN{978-1-4503-9999-9/18/06}
 
 
+\long\def\red#1{\textcolor{red}{#1}}
+
 
 \usepackage[utf8]{inputenc}
 \usepackage[portuguese]{babel}
@@ -79,7 +81,7 @@
 %%
 %% The "title" command has an optional parameter,
 %% allowing the author to define a "short title" to be used in page headers.
-\title{O Site Mais Inacessível}
+\title{O Website Mais Inacessível}
 
 %%
 %% The "author" command and its associated commands are used to define
@@ -184,11 +186,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introdução}
 
-In this section, we convince you that this research is fucking bitchen.
+A acessibilidade dos websites não está entre as prioridades de um desenvolvedor típico [\red{REF}]. Idealmente, um website seria considerado acessível somente quando todo seu conteúdo e funcionalidades pudessem ser completamente acessados por todo tipo de usuário [\red{REF}]. No entanto, tornar um website acessível requer, além de sensibilidade, que seus desenvolvedores tomem várias ações que aumentem a acessibilidade.
 
+Para isso, os desenvolvedores frequentemente delegam a detecção dos problemas de acessibilidade a ferramentas especializadas como \red{XXX}. Assim, prover acessibilidade em muitos casos consiste em adotar uma ferramenta de detecção automática, estabelecer uma pontuação-alvo e ajustar o website para que se atinga essa pontuação. Vários autores da literatura de desenvolvimento de sistemas acessíveis versam sobre os benefícios de se utilizar ferramentas automáticas como por exemplo \red{XX} [\red{XX}], \red{YY} [\red{YY}] e \red{ZZ} [\red{ZZ}].
 
+Entretanto, o propósito deste estudo é mostrar que passar em testes automáticos não é suficiente para que um site seja considerado acessível.
 
-
+Este trabalho de pesquisa está organizado da seguinte forma. A seção \ref{sec:contexto-e-trabalhos-relacionados} oferece o contexto do nosso problema de pesquisa e apresenta as principais abordagens na literatura sobre desenvolvimento de sistemas acessível. A seção \ref{sec:metodo} descreve o método utilizado na pesquisa. Na seção, \ref{sec:resultados}, apresentamos os nossos resultados. Na seção \ref{sec:discussao}, propomos uma discussão sobre os nossos principais resultados. Na seção \ref{sec:limitacoes}, apresentamos as principais limitações na abordagem que adotamos. Na seção \ref{sec:conclusao}, concluimos o presente trabalho.
 
 
 
@@ -200,6 +204,7 @@ In this section, we convince you that this research is fucking bitchen.
 % BACKGROUND AND RELATED WORKS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Contexto e Trabalhos Relacionados}
+\label{sec:contexto-e-trabalhos-relacionados}
 
 In this section, we provide some background so that you can understand us. After that, we provide a selected list of relevant works on this theme.
 
@@ -231,6 +236,8 @@ These works are for you to know that we are not the only people on earth looking
 % RESEARCH METHOD
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Método da Pesquisa}
+\label{sec:metodo}
+
 
 This is where we show how we did what we did.
 
@@ -251,6 +258,7 @@ This is where we show how we did what we did.
 % FINDINGS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Resultados}
+\label{sec:resultados}
 
 Tada! We found something interesting. You did not see that coming, right?
 
@@ -268,7 +276,7 @@ Tada! We found something interesting. You did not see that coming, right?
 % DISCUSSION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Discussão}
-
+\label{sec:discussao}
 Have you thought that our findings are more than a curiosity? Here is where we tell you why.
 
 
@@ -284,6 +292,8 @@ Have you thought that our findings are more than a curiosity? Here is where we t
 % LIMITATIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Limitações}
+\label{sec:limitacoes}
+
 
 We tried hard but no method is perfect. This is where we tell you what could have gone wrong with what we did.
 
@@ -304,7 +314,7 @@ We tried hard but no method is perfect. This is where we tell you what could hav
 % CONCLUSIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusão}
-
+\label{sec:conclusao}
 
 Well, our final remarks.
 
