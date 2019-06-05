@@ -3,3 +3,8 @@
 *.fdb_latexmk
 *.fls
 *.gz
+*.cut
+*.aux
+*.log
+*.out
+*.pdf
